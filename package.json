@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch -r dotenv/config src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "introspect": "drizzle-kit introspect:pg",
+    "generate": "drizzle-kit generate:pg",
+    "migrate": "tsx -r dotenv/config drizzle/migrate.ts"
   },
   "keywords": [],
   "author": "",
