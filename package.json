@@ -1,0 +1,19 @@
+{
+  "name": "supabase-express-drizzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "drizzle-orm": "^0.27.2",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.19.12"
+  }
+}
